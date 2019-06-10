@@ -22,6 +22,8 @@ function Letter(character) {
 
 }
 
+module.exports = Letter;
+
 // code test:
 // var test = new Letter ("k");
 // test.check("m");
