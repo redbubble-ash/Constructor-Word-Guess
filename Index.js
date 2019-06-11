@@ -14,4 +14,23 @@ inquirer
     guessACity.ifGuessed(answers.letters);
     console.log(guessACity.toString());
 
+    
+    Word.prototype.checkLetter = function(char){
+        var ifLetter = false;
+        for (var j = 0; j < this.letters.length; j++) {
+            //call Letter.check function.
+           if(this.letters[j].character === char){
+               ifLetter = true;
+           }
+        }
+        return ifLetter;
+    }
+
+        if(guessACity.checkLetter(answers.letters)){
+        console.log("CORRECT!")
+    }
+    else{
+        console.log("INCORRECT!")
+    }
+
   });
