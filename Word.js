@@ -23,11 +23,17 @@ function Word(newWord) {
     };
 
     //A function that takes a character as an argument and calls the guess function on each letter object (the second function defined in `Letter.js`)
+    // check if guessed letter is in the given word, return true if the guess is correct
     this.ifGuessed = function (char) {
+        var ifLetter = false;
         for (var j = 0; j < this.letters.length; j++) {
             //call Letter.check function.
-            this.letters[j].check(char);
+            if (this.letters[j].check(char)){
+                ifLetter = true;
+
+            }
         }
+        return ifLetter;
     }
 }
 
