@@ -28,7 +28,7 @@ function Word(newWord) {
         var ifLetter = false;
         for (var j = 0; j < this.letters.length; j++) {
             //call Letter.check function.
-            if (this.letters[j].check(char)){
+            if (this.letters[j].check(char)) {
                 ifLetter = true;
 
             }
@@ -36,6 +36,19 @@ function Word(newWord) {
         return ifLetter;
     }
 }
+
+// added a constructor Word object to check if word has been guessed
+Word.prototype.checkIfWordGuessed = function () {
+    var ifWord = true;
+    for (var j = 0; j < this.letters.length; j++) {
+        //checking if each letter has been guessed.
+        if (!this.letters[j].guess) {
+            ifWord = false;
+        }
+    }
+    return ifWord;
+}
+
 
 module.exports = Word;
 
