@@ -41,8 +41,8 @@ function Word(newWord) {
 Word.prototype.checkIfWordGuessed = function () {
     var ifWord = true;
     for (var j = 0; j < this.letters.length; j++) {
-        //checking if each letter has been guessed.
-        if (!this.letters[j].guess) {
+        //checking if each letter has been guessed and it is not a space.
+        if (!this.letters[j].guess && this.letters[j].character !== " ") {
             ifWord = false;
         }
     }
