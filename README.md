@@ -9,7 +9,8 @@ This game has met the following criteria:
 
 1. using the "inquirer" npm pacakages.
 
-2. * **Letter.js**: Contains a constructor, Letter. This constructor is able to either display an underlying character or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. 
+2. 
+* **Letter.js**: Contains a constructor, Letter. This constructor is able to either display an underlying character or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. 
 
 * **Word.js**: Contains a constructor, Word that depends on the Letter constructor. This is used to create an object representing the current word the user is attempting to guess. 
 
@@ -32,7 +33,7 @@ This game has met the following criteria:
 4. If the letter doesn't match the city's name, it will display "INCORRECT!" and user's remaining time to guess will be reduced by one from five if fail to guess the correct answer. 
 
 ## Example_correct guess:
-https://cl.ly/a010cf9d0882
+![GitHub Logo](/image/correct.gif)
 
 ## Example_incorrect guess:
-https://cl.ly/b69ca1f180c0
+![GitHub Logo](/image/incorrect.gif)
