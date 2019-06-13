@@ -7,7 +7,7 @@ In this assignment, I created a Word Guess command-line game using constructor f
 
 This game has met the following criteria:
 
-1. using the "inquirer" npm pacakages.
+1. using the **"inquirer" npm pacakages**.
 
 2. 
 * **Letter.js**: Contains a constructor, Letter. This constructor is able to either display an underlying character or a blank placeholder (such as an underscore), depending on whether or not the user has guessed the letter. 
@@ -26,7 +26,7 @@ This game has met the following criteria:
 
 1. When the game starts, the system will randomly select an American city's name for user to guess.
 
-2. User enter a letter on the comment line.
+2. User enters a letter on the comment line.
 
 3. If the letter matches one or more letters of the city's name, the comment line will display "CORRECT!"
 
