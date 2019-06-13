@@ -13,7 +13,8 @@ This game has met the following criteria:
 
 * **Word.js**: Contains a constructor, Word that depends on the Letter constructor. This is used to create an object representing the current word the user is attempting to guess. 
 
-* **index.js**: The file containing the logic for the course of the game, which depends on `Word.js` and:
+* **index.js**: 
+  * The file containing the logic for the course of the game, which depends on `Word.js` and:
 
   * Randomly selects a word and uses the `Word` constructor to store it
 
@@ -31,7 +32,7 @@ This game has met the following criteria:
 4. If the letter doesn't match the city's name, it will display "INCORRECT!" and user's remaining time to guess will be reduced by one from five if fail to guess the correct answer. 
 
 ## Example_correct guess:
-https://cl.ly/6a799f42de4c
+https://cl.ly/a010cf9d0882
 
 ## Example_incorrect guess:
-https://cl.ly/180b1fc12316
+https://cl.ly/b69ca1f180c0
